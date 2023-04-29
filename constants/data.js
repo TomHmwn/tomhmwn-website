@@ -58,6 +58,7 @@ const userData = {
     {
       title: "Snack in a Van",
       imgUrl: "/snack-in-van.gif",
+      link: "https://wordle-clone-i893xk3lz-tomhmwn.vercel.app/",
       description:
         "A web app that takes users’ food orders and facilities vendor transactions Vendors can show their locations in a map and add customization their menu",
       stacks: [
