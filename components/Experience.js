@@ -26,9 +26,9 @@ const Experience = () => {
         </h1>
       </div>
 
-      <div className="bg-[#f1f1f1] dark:bg-black h-screen">
-        <div className=" grid grid-cols-1 md:grid-cols-3 max-w-6xl mx-auto gap-y-20 gap-x-20 place-items-center md:h-3/4">
-          <div className="col-span-1 space-y-4 m-2 px-6 py-20 flex flex-row items-center justify-between overflow-x-scroll w-full md:block">
+      <div className="bg-[#f1f1f1] dark:bg-black h-full">
+        <div className=" grid grid-cols-1 md:grid-cols-3 max-w-6xl mx-auto gap-y-10 gap-x-20 place-items-center md:h-3/4">
+          <div className="col-span-1 space-y-4 m-2 px-6 py-10 flex flex-row items-center justify-between overflow-x-scroll w-full md:block">
             {userData.experience.map((experience, idx) => {
               const buttonClasses =
                 idx === currentExperience
@@ -74,7 +74,7 @@ const ExperienceDetails = ({ experience }) => {
   }
 
   return (
-    <div className="text-gray-500 dark:text-white leading-loose text-2xl md:text-4xl font-semibold mx-8">
+    <div className="text-gray-500 dark:text-white leading-loose text-2xl md:text-4xl font-semibold mx-8 ">
       <h2 className="text-gray-500 dark:text-white text-xl md:text-2xl font-semibold mb-2">
         {experience.role}
       </h2>
@@ -100,7 +100,7 @@ const ExperienceDetails = ({ experience }) => {
         <ul className="list-disc list-inside">
           {experience.desc.map((d, i) => (
             <li
-              className="text-base md:text-lg text-gray-500 dark:text-gray-300 mb-2 ml-2"
+              className="text-sm md:text-lg text-gray-500 dark:text-gray-300 mb-2 ml-2"
               key={i}
             >
               {d}
