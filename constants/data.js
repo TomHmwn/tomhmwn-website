@@ -9,7 +9,7 @@ const userData = {
   projects: [
     {
       title: "Melbourne Park Finder",
-      link: "https://melbourne-park-finder.herokuapp.com/",
+      link: "https://www.melbourneparkfinder.me/",
       imgUrl: "/park-finder.png",
       description: "A web application to find parks in Melbourne, Australia",
       stacks: [
