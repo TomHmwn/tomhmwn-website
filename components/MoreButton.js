@@ -4,6 +4,7 @@ import Link from "next/link";
 const MoreButton = ({ link, placeholder }) => {
   return (
     <Link
+      target="_blank"
       href={link}
       className="dark:bg-[#151515] p-5 rounded-md shadow-lg text-xl font-semibold flex flex-row justify-center items-center space-x-4 text-gray-400 dark:text-white hover:text-gray-600 dark:hover:text-gray-500 hover:bg-gray-100 dark:hover:bg-gray-700 transition duration-300 ease-in-out"
     >
