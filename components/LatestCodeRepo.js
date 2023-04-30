@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import MoreButton from "./MoreButton";
 import getLatestRepos from "@/lib/getLatestRepos";
+import userData from "../constants/data";
 export default function LatestCodeRepo({ repositories }) {
   const [repos, setRepos] = useState(repositories);
 
@@ -43,7 +44,7 @@ export default function LatestCodeRepo({ repositories }) {
                 </div>
               </div>
             }
-            link="projects"
+            link={`https://github.com/${userData.githubUsername}?tab=repositories`}
           />
         </div>
       </div>
