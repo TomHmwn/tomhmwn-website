@@ -43,7 +43,7 @@ const userData = {
 
     {
       title: "My portfolio",
-      link: "https://thomashimawan.com/",
+      link: "https://www.thomashimawan.com/",
       imgUrl: "/portfolio.png",
       description: "This website your are visiting right now",
       stacks: [
