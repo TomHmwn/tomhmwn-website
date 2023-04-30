@@ -27,8 +27,8 @@ const Experience = () => {
       </div>
 
       <div className="bg-[#f1f1f1] dark:bg-black h-screen">
-        <div className=" grid grid-cols-1 md:grid-cols-3 max-w-6xl mx-auto gap-y-20 gap-x-20 place-items-center h-3/4">
-          <div className="col-span-1 space-y-4 m-2 p-6 flex flex-row items-center justify-between overflow-x-scroll w-full md:block">
+        <div className=" grid grid-cols-1 md:grid-cols-3 max-w-6xl mx-auto gap-y-20 gap-x-20 place-items-center md:h-3/4">
+          <div className="col-span-1 space-y-4 m-2 px-6 py-20 flex flex-row items-center justify-between overflow-x-scroll w-full md:block">
             {userData.experience.map((experience, idx) => {
               const buttonClasses =
                 idx === currentExperience

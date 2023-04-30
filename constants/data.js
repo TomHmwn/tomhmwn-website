@@ -43,7 +43,7 @@ const userData = {
 
     {
       title: "My portfolio",
-      link: "https://manuarora.in",
+      link: "https://thomashimawan.com/",
       imgUrl: "/portfolio.png",
       description: "This website your are visiting right now",
       stacks: [
@@ -58,7 +58,7 @@ const userData = {
     {
       title: "Snack in a Van",
       imgUrl: "/snack-in-van.gif",
-      link: "https://wordle-clone-i893xk3lz-tomhmwn.vercel.app/",
+
       description:
         "A web app that takes users’ food orders and facilities vendor transactions Vendors can show their locations in a map and add customization their menu",
       stacks: [
@@ -76,6 +76,7 @@ const userData = {
       imgUrl: "/wordle.png",
       description: "A web app that allows users to play a game of wordle",
       stacks: ["ReactJS"],
+      link: "https://wordle-clone-i893xk3lz-tomhmwn.vercel.app/",
       github: "https://github.com/TomHmwn/wordle-clone",
     },
     {

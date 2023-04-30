@@ -27,7 +27,7 @@ export default function LatestCodeRepo({ repositories }) {
 
           {repos &&
             repos.map((latestRepo, idx) => (
-              <GithubRepoCard latestRepo={latestRepo} key="idx" />
+              <GithubRepoCard latestRepo={latestRepo} key={idx} />
             ))}
         </div>
 
