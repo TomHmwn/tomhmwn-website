@@ -92,7 +92,7 @@ const userData = {
       title: "Conway's Game of Life",
       imgUrl: "/gosper_glider_gun.gif",
       description:
-        "Developed a Ruby program that simulates Conway's Game of Life using Curses Library to visualise an animation in the CLI",
+        "Developed a Ruby program that simulates Conway's Game of Life using Curses Library to visualise an animation in the CLI, implemented using Test driven development with Rspec for testing",
       stacks: ["Ruby"],
       github: "https://github.com/TomHmwn/dojo/tree/master/game_of_life_20230705"
     }
