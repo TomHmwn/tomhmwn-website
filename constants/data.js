@@ -88,6 +88,14 @@ const userData = {
       stacks: ["Unity", "C#"],
       github: "https://github.com/TomHmwn/COMP30019",
     },
+    {
+      title: "Conway's Game of Life",
+      imgUrl: "/gosper_glider_gun.gif",
+      description:
+        "Developed a Ruby program that simulates Conway's Game of Life using Curses Library to visualise an animation in the CLI",
+      stacks: ["Ruby"],
+      github: "https://github.com/TomHmwn/dojo/tree/master/game_of_life_20230705"
+    }
   ],
   about: {
     title:
