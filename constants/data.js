@@ -101,7 +101,7 @@ const userData = {
       imgUrl: "/AI-next-blog.gif",
       description:
         "Developed a blog post using Next.js and TailwindCSS, the blog post is about the future of AI",
-      stacks: ["Next.js","Prisma", "TailwindCSS", "heroIcons","TipTap", "Typescript", "Vercel", "ChatGPT"],
+      stacks: ["Next.js","Prisma", "TailwindCSS", "heroIcons","TipTap", "Typescript", "Vercel", "OpenAI"],
       github: "https://github.com/TomHmwn/next-ai-blog",
       link: "https://next-ai-blog-jjxl.vercel.app/"
     }
