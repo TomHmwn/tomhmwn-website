@@ -95,6 +95,15 @@ const userData = {
         "Developed a Ruby program that simulates Conway's Game of Life using Curses Library to visualise an animation in the CLI, implemented using Test driven development with Rspec for testing",
       stacks: ["Ruby"],
       github: "https://github.com/TomHmwn/dojo/tree/master/game_of_life_20230705"
+    },
+    {
+      title: "AI Blog Post",
+      imgUrl: "/AI-next-blog.gif",
+      description:
+        "Developed a blog post using Next.js and TailwindCSS, the blog post is about the future of AI",
+      stacks: ["Next.js","Prisma", "TailwindCSS", "heroIcons","TipTap", "Typescript", "Vercel", "ChatGPT"],
+      github: "https://github.com/TomHmwn/next-ai-blog",
+      link: "https://next-ai-blog-jjxl.vercel.app/"
     }
   ],
   about: {
@@ -114,9 +123,21 @@ const userData = {
   },
   experience: [
     {
+      role: "Fullstack Developer / AWS DevOps Engineer",
+      company: "LVT People",
+      year: "2023 July - Present",
+      companyLink: "https://lvtpeople.com.au/",
+      desc: [
+        "Developed a web application to help clients find jobs",
+        "Tech stack: AdonisJS, PostgreSQL, TailwindCSS, NextJS, Typescript, AWS RDS, beanstalk, codepipeline, S3 bucket",
+        "Worked in an agile with sprints and daily standups, and used Jira for project management with Business Analyst, Product Owner, and other developers",
+      ],
+
+    },
+    {
       role: "Web Development Bootcamp",
       company: "Le Wagon",
-      year: "2023",
+      year: "2023 January - March",
       companyLink: "https://www.lewagon.com/",
       desc: [
         "Attended a 9-week intensive coding bootcamp learning Ruby, Ruby on Rails, JavaScript, HTML, CSS, SQL and git",
