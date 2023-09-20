@@ -100,7 +100,7 @@ const userData = {
       title: "AI Blog Post",
       imgUrl: "/AI-next-blog.gif",
       description:
-        "Developed a blog post using Next.js and TailwindCSS, the blog post is about the future of AI",
+        "Developed a blog post using Next.js and TailwindCSS, Post database is using Prisma, Special thing is the User can automatically generate a blog post using OpenAI's GPT-3 API",
       stacks: ["Next.js","Prisma", "TailwindCSS", "heroIcons","TipTap", "Typescript", "Vercel", "OpenAI"],
       github: "https://github.com/TomHmwn/next-ai-blog",
       link: "https://next-ai-blog-jjxl.vercel.app/"
